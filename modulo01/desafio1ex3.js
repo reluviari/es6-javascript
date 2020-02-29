@@ -1,4 +1,4 @@
-//converter o código em Arrow Functions
+// Converter o código em Arrow Functions
 
 /**
  * 3.1
