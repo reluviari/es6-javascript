@@ -16,7 +16,7 @@ class App {
 	// 	}
 	// }
 
-	registerHandlers() {
+	registerHandlers() {	
 		this.formEl.onsubmit = event => this.addRepository(event);
 	}
 

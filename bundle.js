@@ -29,5 +29,5 @@ function () {
 var MinhaLista = new TodoList();
 
 document.getElementById("novotodo").onclick = function () {
-  MinhaLista.add("Novo todo");
+  MinhaLista.addTodo("Novo todo");
 };

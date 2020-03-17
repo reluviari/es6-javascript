@@ -8,7 +8,7 @@ const minhaPromise = () => new Promise((resolve, reject) => {
         console.log(response);
     })
     .catch(err =>{
-
+        console.log(err)
     }); 
  */
 

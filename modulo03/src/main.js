@@ -130,7 +130,7 @@ const buscaUsuario = async usuario => {
 
 		console.log(response.data);
 	} catch (err) {
-		console.log("user não existe");
+		console.log("Usuário não existe");
 	}
 };
 
