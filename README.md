@@ -10,7 +10,7 @@
 ![Yarn](/images/logo-yarn.png)
 ![VSCode](/images/logo-VSCode.png)
 ![Git](/images/logo-git.png)
-![GitHub](/images/logo-github.png)<br/>
+![GitHub](/images/logo-github.png)
 ![Rocketseat](/images/logo-rocketseat.png)
 
 ## Aulas
