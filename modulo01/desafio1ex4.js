@@ -13,13 +13,13 @@
  * nome, cidade e estado em variáveis, no fim deve ser possível
  * fazer o seguinte:
  * console.log(nome);   // Rocketseat
- * console.log(cidade); // Rio do Sul
+ * console.log(cidade); // Toledo
  * console.log(estado); // SC
  */
 const empresa = {
 	nome: "Rocketseat",
 	endereco: {
-		cidade: "Rio de Janeiro",
+		cidade: "Toledo",
 		estado: "SC",
 	},
 };
@@ -39,6 +39,7 @@ console.log(estado);
  *      return ${usuario.nome} tem ${usuario.idade} anos.; entre crases
  * }
  * mostraInfo({ nome: 'Diego', idade: 23 })
+ 
  * Utilize a desestruturação nos parâmetros da função para buscar o nome e
  * idade do usuário separadamente e a função poder retornar apenas:
  * return ${nome} tem ${idade} anos.; entre crases

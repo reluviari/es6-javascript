@@ -6,7 +6,7 @@
  * const usuario = {
  *      nome: nome,
  *      idade: idade,
- *      cidade: 'Rio do Sul',
+ *      cidade: 'Toledo',
  * };
  */
 const nome = "Danilo";
@@ -14,6 +14,6 @@ const idade = 35;
 const usuario = {
 	nome,
 	idade,
-	cidade: "Rio do Sul",
+	cidade: "Toledo",
 };
 console.log(usuario);

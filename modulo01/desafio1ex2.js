@@ -3,14 +3,14 @@ const usuarios = [
 	{ nome: "Diego", idade: 23, empresa: "Rocketseat" },
 	{ nome: "Gabriel", idade: 15, empresa: "Rocketseat" },
 	{ nome: "Lucas", idade: 30, empresa: "Facebook" },
-	{ nome: "Danilo", idade: 25, empresa: "Rocketseat" },
+	{ nome: "Danilo", idade: 25, empresa: "Reluviaris" },
 ];
 
 // Utilizar os métodos de array (map, reduce, filter e find)
 
 /**
  * 2.1 Utilizando o map : Crie uma variável que contenha todas idades dos usuários:
- * Resultado : [23, 15, 30]
+ * Resultado : [23, 15, 30, 25]
  */
 const idades = usuarios.map(usuario => usuario.idade);
 console.log(idades);
@@ -46,9 +46,11 @@ console.log(salarioGoogle);
  * [
  *  { nome: 'Diego', idade: 46, empresa: 'Rocketseat' },
  *  { nome: 'Gabriel', idade: 30, empresa: 'Rocketseat' },
+ *  { nome: 'Danilo', idade: 50, empresa: 'Reluviaris' },
  * ]
  */
 const calculo = usuarios
 	.map(usuario => ({ ...usuario, idade: usuario.idade * 2 }))
 	.filter(usuario => usuario.idade <= 50);
+
 console.log(calculo);

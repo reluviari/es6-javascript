@@ -68,10 +68,6 @@
 - Reduzir o código
 - Exemplicações estão em `main6.js`
 
-#### Arquivos Index
-- index.html : Modelo
-- index1.html : Com botão Adicionar
-
 #### Aula 8. Valores padrão
 - Exemplicações estão em `main7.js`
 
