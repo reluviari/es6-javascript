@@ -67,7 +67,7 @@
 
 // 		console.log(response);
 // 	} catch (err) {
-// 		console.log("USUÁRIO não existe");
+// 		console.log("USUÁRIO não existe", err);
 // 	}
 // }
 
@@ -100,7 +100,7 @@
 // 			);
 // 			console.log(response.data);
 // 		} catch (err) {
-// 			console.log("RESPOSITÓRIO não existe.");
+// 			console.log("RESPOSITÓRIO não existe.", err);
 // 		}
 // 	}
 // }
