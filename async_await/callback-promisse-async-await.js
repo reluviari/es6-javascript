@@ -7,7 +7,7 @@ console.log(1);
 
 /*
 	function callback(err, contents) {
-		console.log(err, String (contents));
+		console.log(err, String(contents));
 	}
 */
 
@@ -40,7 +40,7 @@ fs.readFile("bundle.js", callback);
             delay().then(() => {
                 console.log('2s');
                     delay().then(() => {
-                    console.log('3s');
+                    	console.log('3s');
                 });
             })
         });
@@ -80,7 +80,7 @@ fs.readFile("bundle.js", callback);
 
 // UTILIZANDO PROMISSE COM ASYNC /WAIT
 
-const readFile = file =>
+const readFile = (file) =>
 	new Promise((resolve, reject) => {
 		fs.readFile(file, (err, contents) => {
 			if (err) {
@@ -101,11 +101,9 @@ const executeAsyncReadFile = async () => {
 	}
 };
 
-executeAsyncReadFile().then(contents => {
+executeAsyncReadFile().then((contents) => {
 	console.log(String(contents));
 });
-
-// console.log("init", executeReadFile());
 
 console.log(2);
 

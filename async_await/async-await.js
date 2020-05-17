@@ -4,7 +4,7 @@ const fs = require("fs");
 //     return new Promise(...)
 // }
 
-const readFilePromisse = filename =>
+const readFilePromisse = (filename) =>
 	new Promise((resolve, reject) => {
 		fs.readFile(filename, (err, data) => {
 			if (err) {
@@ -15,11 +15,12 @@ const readFilePromisse = filename =>
 		});
 	});
 
+// Sem Async/Await - Utilizando apenas o THEN
 // readFilePromisse("bundle.js").then(data => console.log(data.toString()));
 
 async function read() {
 	try {
-		const contents = await readFilePromisse("bunsssdle.js");
+		const contents = await readFilePromisse("arquivo.js");
 		console.log(contents.toString());
 	} catch (e) {
 		console.log("Deu Erro", e);
